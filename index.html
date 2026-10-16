@@ -1,212 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Innovent Creations | Branding, Design, Motion & Media</title>
-    <meta
-      name="description"
-      content="Innovent Creations delivers logo and branding, web design, posters, video editing, motion graphics, animation, publishing, and package design."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="page-shell">
-      <div class="ambient ambient-a"></div>
-      <div class="ambient ambient-b"></div>
-      <header class="site-header">
-        <a href="#top" class="brand">
-          <img src="../innovent_logo.jpeg" alt="Innovent logo" class="brand-mark" />
-          <span>Innovent</span>
-        </a>
-        <nav class="site-nav">
-          <a href="#services">Services</a>
-          <a href="#process">Process</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a href="#contact" class="button button-ghost">Start a Project</a>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Innovent Creations | Creative Design & Branding Studio</title>
+  <meta name="description" content="Innovent Creations is a premium creative studio offering logo design, brand identity, web design, video editing, motion graphics, animation, and print design. Based in India." />
+  <meta name="keywords" content="creative studio, logo design, brand identity, web design, graphic design, video editing, motion graphics, animation, packaging design, Innovent Creations" />
+  <link rel="canonical" href="https://innoventcreations.in/" />
 
-      <main id="top">
-        <section class="hero section">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Innovent Creations | Creative Studio</p>
-            <h1>Branding, visuals, motion, and design systems built as one creative language.</h1>
-            <p class="hero-text">
-              Innovent Creations shapes how brands look, move, sound, and launch. From
-              logos and websites to posters, VFX, animation, editorial layouts, and package
-              design, every output is designed to feel sharp, current, and commercially useful.
-            </p>
-            <div class="hero-actions">
-              <a href="#contact" class="button">Start a Project</a>
-              <a href="#services" class="button button-secondary">Explore Services</a>
-            </div>
-            <div class="hero-metrics">
-              <article>
-                <span>6</span>
-                <p>core creative service lines under one studio</p>
-              </article>
-              <article>
-                <span>360°</span>
-                <p>brand output across print, digital, motion, and publication design</p>
-              </article>
-              <article>
-                <span>01</span>
-                <p>cohesive visual direction instead of disconnected creative assets</p>
-              </article>
-            </div>
-          </div>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Innovent Creations | Creative Design & Branding Studio" />
+  <meta property="og:description" content="From brand identities to motion graphics and packaging, Innovent Creations builds creative work that makes brands impossible to ignore." />
+  <meta property="og:url" content="https://innoventcreations.in/" />
+  <meta property="og:site_name" content="Innovent Creations" />
 
-          <div class="hero-visual reveal">
-            <div class="visual-card card-large tilt-card">
-              <div class="card-topline">
-                <span>Studio Scope</span>
-                <span>Brand to Motion</span>
-              </div>
-              <h2>One studio for identity, campaigns, digital experiences, and moving visuals.</h2>
-              <div class="stack-grid">
-                <div>
-                  <p>Brand Identity</p>
-                  <span>Logo systems, brand direction, and visual consistency assets</span>
-                </div>
-                <div>
-                  <p>Web Presence</p>
-                  <span>Modern website design, web branding assets, and UI storytelling</span>
-                </div>
-                <div>
-                  <p>Promo Creative</p>
-                  <span>Thumbnails, posters, flyers, and campaign-ready launch collateral</span>
-                </div>
-                <div>
-                  <p>Motion & Print</p>
-                  <span>Editing, VFX, animation, sound mixing, books, magazines, and packaging</span>
-                </div>
-              </div>
-            </div>
-            <div class="visual-card card-image tilt-card">
-              <img src="../inposter_image.jpg" alt="Innovent showcase poster" />
-              <div class="image-caption">
-                <strong>Creative built for visibility</strong>
-                <p>Distinct brand assets that work across screens, print, motion, and campaigns.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-        <section class="section marquee-strip reveal" aria-label="Capabilities">
-          <div class="marquee-track">
-            <span>Logo Design</span>
-            <span>Brand Identity</span>
-            <span>Website Design</span>
-            <span>Posters & Flyers</span>
-            <span>Video Editing</span>
-            <span>VFX & Motion Graphics</span>
-            <span>Animation</span>
-            <span>Sound Mixing</span>
-            <span>Book & Magazine Design</span>
-            <span>Package Design</span>
-          </div>
-        </section>
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/layout.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/visuals.css" />
+</head>
+<body>
 
-        <section class="section work-section" id="services">
-          <div class="section-heading reveal">
-            <p class="eyebrow">What We Create</p>
-            <h2>Creative services designed to make the brand feel finished, visible, and memorable.</h2>
-          </div>
-          <div class="work-grid">
-            <article class="work-card reveal tilt-card">
-              <img src="../69FI1IacFYG9kpLPdOuXy-A1gpZZHQBcZRPyrp4pLEPC7_baeyjOgpCLLWsdF-miYPZvn8pY6a6Y2K1RWjJsWs18PY6YnDzqU1gBEa2KjtY.jpg" alt="Concept visual one" />
-              <div class="work-copy">
-                <p>1. Logo & Branding Design</p>
-                <span>Identity marks, brand systems, typography direction, and the visual foundation of the business.</span>
-              </div>
-            </article>
-            <article class="work-card reveal tilt-card">
-              <img src="../MW44j9No8K-tMOpNISiKgTXY-sX6z5fVlPmRHCpyKi1pAAEcn67xJOjXifbsY2r-4usJc7u54qBw8dftNgoYCESTjMllPkHYKW0Nw1uuVUE.jpg" alt="Concept visual two" />
-              <div class="work-copy">
-                <p>2. Web Design & Branding Assets</p>
-                <span>Modern websites, landing pages, hero visuals, social assets, and cohesive digital presentation.</span>
-              </div>
-            </article>
-            <article class="work-card reveal tilt-card">
-              <img src="../WAldAFhM_oBgPjSK541gbMtPl3EUpfpcfB4BWNy0EcJJNbWfsTHeNDdq838GU96Ar-gWDlzNjjGcx8sbuQTKLUSi6kaDFKRV1iquGoFUIB8.jpg" alt="Concept visual three" />
-              <div class="work-copy">
-                <p>3. Thumbnails, Posters & Flyers</p>
-                <span>Promotional visuals engineered for attention, event visibility, and stronger first impressions.</span>
-              </div>
-            </article>
-            <article class="work-card text-card reveal tilt-card">
-              <div class="work-copy">
-                <p>4. Video Editing, VFX & Motion Graphics</p>
-                <span>High-impact edits, transitions, compositing, and branded motion pieces built for digital campaigns.</span>
-              </div>
-            </article>
-            <article class="work-card text-card reveal tilt-card">
-              <div class="work-copy">
-                <p>5. Animation & Sound Mixing</p>
-                <span>Animated storytelling, kinetic sequences, and polished audio treatment that complete the experience.</span>
-              </div>
-            </article>
-            <article class="work-card text-card reveal tilt-card">
-              <div class="work-copy">
-                <p>6. Book, Magazine & Package Design</p>
-                <span>Editorial systems and product packaging that feel refined, tactile, and ready for real-world production.</span>
-              </div>
-            </article>
-          </div>
-        </section>
+<!-- PAGE LOADER: Home (Digital Innovation & Creative Studio) -->
+<div class="page-loader" id="page-loader" data-page="home" aria-hidden="true">
+  <div class="page-loader__bar"></div>
+  <div class="page-loader__backdrop"></div>
+  <div class="page-loader__card">
+    <div class="page-loader__icon-box">
+      <img src="./assets/logo.jpeg" alt="Innovent" class="page-loader__logo" />
+      <span class="page-loader__ring"></span>
+      <span class="page-loader__ring-pulse"></span>
+    </div>
+    <div class="page-loader__text-wrap">
+      <div class="page-loader__brand">Innovent<span class="page-loader__dot">.</span></div>
+      <div class="page-loader__title">Digital Innovation &amp; Creative Studio</div>
+      <div class="page-loader__tagline">Engineering Next-Gen Digital Products</div>
+    </div>
+    <div class="page-loader__meter"><div class="page-loader__fill"></div></div>
+    <div class="page-loader__status">
+      <span class="page-loader__status-pip"></span>
+      <span class="page-loader__status-text">✦ Initializing Digital Experience</span>
+    </div>
+  </div>
+</div>
+<script>
+  (function(){
+    function hideLoader() {
+      var el = document.getElementById('page-loader');
+      if (el) { el.classList.add('loaded'); el.classList.remove('entering'); }
+    }
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(hideLoader, 200);
+    } else {
+      window.addEventListener('DOMContentLoaded', function() { setTimeout(hideLoader, 200); });
+      window.addEventListener('load', function() { setTimeout(hideLoader, 200); });
+    }
+    setTimeout(hideLoader, 380);
+  })();
+</script>
 
-        <section class="section process-section" id="process">
-          <div class="section-heading reveal">
-            <p class="eyebrow">How We Work</p>
-            <h2>Creative direction that stays aligned from the first concept to the final deliverable.</h2>
-          </div>
-          <div class="process-grid">
-            <article class="process-card reveal">
-              <span>01</span>
-              <h3>Discover the brand</h3>
-              <p>
-                We define the tone, audience, references, and visual territory so every
-                output has a clear point of view before production begins.
-              </p>
-            </article>
-            <article class="process-card reveal">
-              <span>02</span>
-              <h3>Build the asset system</h3>
-              <p>
-                Logos, layouts, web visuals, motion, print elements, and promotional pieces
-                are developed as part of one coordinated creative ecosystem.
-              </p>
-            </article>
-            <article class="process-card reveal">
-              <span>03</span>
-              <h3>Launch with consistency</h3>
-              <p>
-                Final files are refined for digital, social, print, and motion delivery so
-                the brand does not lose quality across formats.
-              </p>
-            </article>
-          </div>
-        </section>
+<!-- ────────────────────────────────────────
+     NAVIGATION
+──────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="./index.html" class="nav__brand" aria-label="Innovent Creations — Home">
+        <img src="./assets/logo.jpeg" alt="Innovent Creations logo" class="nav__brand-logo" />
+        Innovent<span class="nav__brand-dot">.</span>
+      </a>
 
-        <section class="section contact-section reveal" id="contact">
-          <div class="contact-panel">
-            <div>
-              <p class="eyebrow">Start Here</p>
-              <h2>Need branding, web assets, posters, editing, motion, or publication design for your next launch?</h2>
-            </div>
-            <a class="button" href="mailto:hello@innovent.design">hello@innovent.design</a>
-          </div>
-        </section>
-      </main>
+      <div class="nav__links" role="menubar">
+        <a href="./index.html" class="nav__link active" role="menuitem">Home</a>
+        <a href="./pages/services.html" class="nav__link" role="menuitem">Services</a>
+        <a href="./pages/portfolio.html" class="nav__link" role="menuitem">Portfolio</a>
+        <a href="./pages/about.html" class="nav__link" role="menuitem">About</a>
+        <a href="./pages/contact.html" class="nav__link" role="menuitem">Contact</a>
+      </div>
+
+      <div class="nav__actions">
+        <a href="./pages/contact.html" class="btn btn--primary btn--sm">Start a Project</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav__mobile" id="mobile-menu" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+  <nav class="nav__mobile-links">
+    <a href="./index.html" class="nav__mobile-link">Home</a>
+    <a href="./pages/services.html" class="nav__mobile-link">Services</a>
+    <a href="./pages/portfolio.html" class="nav__mobile-link">Portfolio</a>
+    <a href="./pages/about.html" class="nav__mobile-link">About</a>
+    <a href="./pages/contact.html" class="nav__mobile-link">Contact</a>
+  </nav>
+  <a href="./pages/contact.html" class="btn btn--primary btn--lg" style="align-self:flex-start">Start a Project →</a>
+</div>
+
+<main>
+
+<!-- ────────────────────────────────────────
+     HERO
+──────────────────────────────────────── -->
+<section class="hero" id="hero">
+  <!-- Animated gradient orbs -->
+  <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+  <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+  <div class="hero__orb hero__orb--3" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__left">
+        <div class="hero__badge reveal">
+          <span class="hero__badge-dot"></span>
+          Creative Studio — India
+        </div>
+        <h1 class="hero__title reveal" data-delay="1">
+          <span class="hero__title-line">Your Vision.</span>
+          <span class="hero__title-line">Our <em>Creativity.</em></span>
+          <span class="hero__title-line">One Powerful Brand.</span>
+        </h1>
+        <p class="hero__sub reveal" data-delay="2">
+          From unforgettable brand identities to scroll-stopping visuals and cinematic content — we help turn creative ideas into experiences people remember.
+        </p>
+        <div class="hero__actions reveal" data-delay="3">
+          <a href="./pages/contact.html" class="btn btn--primary btn--lg">
+            Start a Project
+            <span class="btn__arrow">→</span>
+          </a>
+          <a href="./pages/portfolio.html" class="btn btn--outline btn--lg">
+            Explore Our Work
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__right reveal" data-delay="2">
+        <div class="hero__float-card hero__float-card--tl reveal" data-delay="4">
+          <div class="hero__float-label">Studio Focus</div>
+          <div class="hero__float-val">Creative First</div>
+        </div>
+        <div class="hero__img-wrapper">
+          <img src="./assets/poster.jpg" alt="Innovent Creations creative showcase" class="hero__main-img" />
+        </div>
+        <div class="hero__float-card hero__float-card--br reveal" data-delay="5">
+          <div class="hero__float-label">Services</div>
+          <div class="hero__float-val">6 Disciplines</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+    Scroll
+  </div>
+</section>
+
+<!-- ────────────────────────────────────────
+     CAPABILITIES TICKER
+──────────────────────────────────────── -->
+<section class="ticker-section" aria-label="Our creative capabilities">
+  <div class="marquee">
+    <div class="marquee__track" id="marquee-track">
+      <span class="marquee__item">Logo Design <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Brand Identity <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Web Design <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Social Media Creatives <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Video Editing <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Motion Graphics <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Animation <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Sound Mixing <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Packaging Design <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Book & Magazine Design <span class="marquee__sep" aria-hidden="true">◆</span></span>
+      <span class="marquee__item">Merchandise Graphics <span class="marquee__sep" aria-hidden="true">◆</span></span>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider" aria-hidden="true" />
+
+<!-- ────────────────────────────────────────
+     SERVICES OVERVIEW
+──────────────────────────────────────── -->
+<section class="section services-section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">What We Do</span>
+      <h2>Everything Your Brand Needs to Stand Out.</h2>
+      <p>Six creative disciplines. One cohesive studio. Built to make your brand feel finished, visible, and impossible to ignore.</p>
     </div>
 
-    <script src="./script.js"></script>
-  </body>
+    <div class="services-grid">
+      <!-- 1 -->
+      <article class="service-card reveal" data-delay="1">
+        <div class="service-card__icon" aria-hidden="true">✦</div>
+        <div class="service-card__num">01</div>
+        <h3 class="service-card__title">Logo & Brand Identity</h3>
+        <p class="service-card__desc">Your brand's visual foundation — built to be distinctive, consistent, and made to last.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">Logo design & visual marks</li>
+          <li class="service-card__list-item">Brand guidelines</li>
+          <li class="service-card__list-item">Typography & colour systems</li>
+          <li class="service-card__list-item">Business stationery & assets</li>
+        </ul>
+        <a href="./pages/services.html#branding" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+
+      <!-- 2 -->
+      <article class="service-card reveal" data-delay="2">
+        <div class="service-card__icon" aria-hidden="true">◈</div>
+        <div class="service-card__num">02</div>
+        <h3 class="service-card__title">Web Design & Digital Creatives</h3>
+        <p class="service-card__desc">Visual-first web design and digital assets that communicate your brand story online.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">Website visual design</li>
+          <li class="service-card__list-item">Landing page design</li>
+          <li class="service-card__list-item">Web branding assets</li>
+          <li class="service-card__list-item">Digital campaign creatives</li>
+        </ul>
+        <a href="./pages/services.html#web" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+
+      <!-- 3 -->
+      <article class="service-card reveal" data-delay="3">
+        <div class="service-card__icon" aria-hidden="true">▣</div>
+        <div class="service-card__num">03</div>
+        <h3 class="service-card__title">Social Media & Promotional Design</h3>
+        <p class="service-card__desc">Scroll-stopping visuals designed for engagement, reach, and brand recognition.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">YouTube thumbnails</li>
+          <li class="service-card__list-item">Social media posts & stories</li>
+          <li class="service-card__list-item">Posters & flyers</li>
+          <li class="service-card__list-item">Promotional banners</li>
+        </ul>
+        <a href="./pages/services.html#social" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+
+      <!-- 4 -->
+      <article class="service-card reveal" data-delay="1">
+        <div class="service-card__icon" aria-hidden="true">▶</div>
+        <div class="service-card__num">04</div>
+        <h3 class="service-card__title">Video Editing & Motion Graphics</h3>
+        <p class="service-card__desc">Cinematic edits and branded motion that elevate content and demand attention.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">Professional video editing</li>
+          <li class="service-card__list-item">Motion graphics & VFX</li>
+          <li class="service-card__list-item">Branded video content</li>
+          <li class="service-card__list-item">Promotional reels</li>
+        </ul>
+        <a href="./pages/services.html#video" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+
+      <!-- 5 -->
+      <article class="service-card reveal" data-delay="2">
+        <div class="service-card__icon" aria-hidden="true">◎</div>
+        <div class="service-card__num">05</div>
+        <h3 class="service-card__title">Animation & Audio Production</h3>
+        <p class="service-card__desc">Animated storytelling and polished audio that bring creative ideas to life.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">2D & motion animation</li>
+          <li class="service-card__list-item">Creative visual storytelling</li>
+          <li class="service-card__list-item">Sound mixing & finishing</li>
+          <li class="service-card__list-item">Audio for multimedia projects</li>
+        </ul>
+        <a href="./pages/services.html#animation" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+
+      <!-- 6 -->
+      <article class="service-card reveal" data-delay="3">
+        <div class="service-card__icon" aria-hidden="true">❑</div>
+        <div class="service-card__num">06</div>
+        <h3 class="service-card__title">Print, Publishing & Merchandise</h3>
+        <p class="service-card__desc">Physical touchpoints that feel as premium as your digital presence.</p>
+        <ul class="service-card__list" aria-label="Deliverables">
+          <li class="service-card__list-item">Book & magazine design</li>
+          <li class="service-card__list-item">Packaging design</li>
+          <li class="service-card__list-item">T-shirt & apparel graphics</li>
+          <li class="service-card__list-item">Merchandise design</li>
+        </ul>
+        <a href="./pages/services.html#print" class="service-card__link">Learn more <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+
+    <div class="text-center" style="margin-top: var(--sp-10);">
+      <a href="./pages/services.html" class="btn btn--outline btn--lg">View All Services →</a>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider" aria-hidden="true" />
+
+<!-- ────────────────────────────────────────
+     SELECTED WORK
+──────────────────────────────────────── -->
+<section class="section work-section" id="work">
+  <div class="container">
+    <div class="section-head reveal" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:var(--sp-4);">
+      <div>
+        <span class="section-label">Selected Work</span>
+        <h2>Creative Work With Purpose.</h2>
+      </div>
+      <a href="./pages/portfolio.html" class="btn btn--outline reveal" data-delay="1">View Full Portfolio →</a>
+    </div>
+
+    <div class="work-grid">
+      <div class="work-item work-item--large reveal" data-delay="1">
+        <img src="./assets/work1.jpg" alt="Brand identity and logo design concept" class="work-item__img" loading="lazy" />
+        <div class="work-item__overlay">
+          <p class="work-item__cat">Branding</p>
+          <h3 class="work-item__title">Brand Identity Concept</h3>
+        </div>
+      </div>
+      <div class="work-item work-item--med reveal" data-delay="2">
+        <img src="./assets/work2.jpg" alt="Web design and digital creative" class="work-item__img" loading="lazy" />
+        <div class="work-item__overlay">
+          <p class="work-item__cat">Digital Design</p>
+          <h3 class="work-item__title">Digital Creative</h3>
+        </div>
+      </div>
+      <div class="work-item work-item--med reveal" data-delay="3">
+        <img src="./assets/work3.jpg" alt="Poster and promotional design" class="work-item__img" loading="lazy" />
+        <div class="work-item__overlay">
+          <p class="work-item__cat">Social & Promo</p>
+          <h3 class="work-item__title">Promotional Poster</h3>
+        </div>
+      </div>
+      <div class="work-item work-item--med reveal" data-delay="4">
+        <img src="./assets/work4.jpg" alt="Logo and brand identity design series" class="work-item__img" loading="lazy" />
+        <div class="work-item__overlay">
+          <p class="work-item__cat">Branding</p>
+          <h3 class="work-item__title">Logo Identity Series</h3>
+        </div>
+      </div>
+      <div class="work-item work-item--med reveal" data-delay="5">
+        <img src="./assets/work5.jpg" alt="Social media and content design templates" class="work-item__img" loading="lazy" />
+        <div class="work-item__overlay">
+          <p class="work-item__cat">Social &amp; Promo</p>
+          <h3 class="work-item__title">Social Media Kit</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ────────────────────────────────────────
+     WHY INNOVENT
+──────────────────────────────────────── -->
+<section class="section why-section" id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why__left reveal">
+        <div class="why__visual">
+          <img src="./assets/poster.jpg" alt="Innovent Creations creative work" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="why__right">
+        <div class="reveal">
+          <span class="section-label">Why Choose Us</span>
+          <h2 style="font-family:var(--font-display); font-size:clamp(2rem,4vw,3rem); font-weight:var(--fw-extrabold); color:var(--c-white); line-height:var(--lh-tight); letter-spacing:var(--ls-tight); max-width:16ch; margin-bottom:var(--sp-4);">
+            More Than Good Design. Creative Work With Purpose.
+          </h2>
+          <p style="font-size:var(--fs-base); color:var(--c-muted); line-height:var(--lh-relaxed); margin-bottom:var(--sp-6); max-width:46ch;">
+            We don't just make things look good. We create visuals that communicate your brand's value, build recognition, and support the business goals behind every project.
+          </p>
+        </div>
+
+        <ul class="why__list">
+          <li class="why-item reveal" data-delay="1">
+            <div class="why-item__icon" aria-hidden="true">🎯</div>
+            <div>
+              <h3 class="why-item__title">Creative Thinking Tailored to Your Brand</h3>
+              <p class="why-item__desc">Every project starts with understanding your audience, goals, and what makes your brand distinct — not with a template.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" data-delay="2">
+            <div class="why-item__icon" aria-hidden="true">✦</div>
+            <div>
+              <h3 class="why-item__title">Consistent Visual Quality</h3>
+              <p class="why-item__desc">From your logo to your packaging, every touchpoint is crafted to the same standard of detail and quality.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" data-delay="3">
+            <div class="why-item__icon" aria-hidden="true">◈</div>
+            <div>
+              <h3 class="why-item__title">One Studio, Six Creative Disciplines</h3>
+              <p class="why-item__desc">Brand identity, web, social, video, animation, and print all under one roof — keeping your visual language coherent.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" data-delay="4">
+            <div class="why-item__icon" aria-hidden="true">⟳</div>
+            <div>
+              <h3 class="why-item__title">Clear Communication & Organized Delivery</h3>
+              <p class="why-item__desc">Structured timelines, clear milestones, and formats ready for real-world use — digital, print, and motion.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ────────────────────────────────────────
+     PROCESS
+──────────────────────────────────────── -->
+<section class="section" style="background:var(--c-bg-3); border-top:1px solid var(--c-border); border-bottom:1px solid var(--c-border);" id="process">
+  <div class="container">
+    <div class="section-head section-head--centered reveal">
+      <span class="section-label" style="justify-content:center;">How We Work</span>
+      <h2 style="margin-inline:auto;">A Process Built for Creative Clarity.</h2>
+      <p>From the first conversation to the final file, every stage is designed to produce work that's both strategically sound and visually excellent.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step reveal" data-delay="1">
+        <div class="process-step__num" aria-label="Step 1">01</div>
+        <h3 class="process-step__title">Discover</h3>
+        <p class="process-step__desc">We understand your brand, audience, objectives, and visual territory before a single concept is developed.</p>
+      </div>
+      <div class="process-step reveal" data-delay="2">
+        <div class="process-step__num" aria-label="Step 2">02</div>
+        <h3 class="process-step__title">Concept</h3>
+        <p class="process-step__desc">We develop creative directions, references, and initial visual concepts — giving the project a clear, agreed point of view.</p>
+      </div>
+      <div class="process-step reveal" data-delay="3">
+        <div class="process-step__num" aria-label="Step 3">03</div>
+        <h3 class="process-step__title">Create</h3>
+        <p class="process-step__desc">The chosen direction is refined into polished, production-ready creative work built for its final context.</p>
+      </div>
+      <div class="process-step reveal" data-delay="4">
+        <div class="process-step__num" aria-label="Step 4">04</div>
+        <h3 class="process-step__title">Deliver</h3>
+        <p class="process-step__desc">Final assets are prepared and handed over in formats ready for digital, social, print, and motion use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ────────────────────────────────────────
+     INDUSTRIES
+──────────────────────────────────────── -->
+<section class="section industries-section" id="industries">
+  <div class="container">
+    <div class="section-head section-head--centered reveal">
+      <span class="section-label" style="justify-content:center;">Who We Help</span>
+      <h2 style="margin-inline:auto;">Built for Businesses That Want to Look the Part.</h2>
+      <p>We work with founders, brands, and creators across industries who understand that strong creative work is a strategic advantage.</p>
+    </div>
+
+    <div class="industries-grid">
+      <div class="industry-card reveal" data-delay="1">
+        <span class="industry-card__icon" aria-hidden="true">🚀</span>
+        <div>
+          <h3 class="industry-card__name">Startups & New Businesses</h3>
+          <p class="industry-card__desc">Build a brand identity that communicates credibility from day one.</p>
+        </div>
+      </div>
+      <div class="industry-card reveal" data-delay="2">
+        <span class="industry-card__icon" aria-hidden="true">🍽️</span>
+        <div>
+          <h3 class="industry-card__name">Restaurants & Hospitality</h3>
+          <p class="industry-card__desc">Menus, packaging, social content, and brand visuals that reflect your experience.</p>
+        </div>
+      </div>
+      <div class="industry-card reveal" data-delay="3">
+        <span class="industry-card__icon" aria-hidden="true">🛍️</span>
+        <div>
+          <h3 class="industry-card__name">Retail & Consumer Brands</h3>
+          <p class="industry-card__desc">Packaging, product branding, and promotional campaigns designed to sell.</p>
+        </div>
+      </div>
+      <div class="industry-card reveal" data-delay="1">
+        <span class="industry-card__icon" aria-hidden="true">🎬</span>
+        <div>
+          <h3 class="industry-card__name">Content Creators & Influencers</h3>
+          <p class="industry-card__desc">Thumbnails, channel art, social media graphics, and a personal brand that stands out.</p>
+        </div>
+      </div>
+      <div class="industry-card reveal" data-delay="2">
+        <span class="industry-card__icon" aria-hidden="true">🎓</span>
+        <div>
+          <h3 class="industry-card__name">Education & Events</h3>
+          <p class="industry-card__desc">Visual materials, event branding, promotional posters, and publication design.</p>
+        </div>
+      </div>
+      <div class="industry-card reveal" data-delay="3">
+        <span class="industry-card__icon" aria-hidden="true">👤</span>
+        <div>
+          <h3 class="industry-card__name">Personal Brands & Entrepreneurs</h3>
+          <p class="industry-card__desc">A consistent, professional visual presence that builds trust and recognition.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ────────────────────────────────────────
+     CTA
+──────────────────────────────────────── -->
+<section class="section cta-section" id="contact-cta">
+  <div class="container">
+    <div class="cta-panel reveal">
+      <h2 class="cta-panel__title">Have an Idea? Let's Make It Impossible to Ignore.</h2>
+      <p class="cta-panel__sub">Tell us what you're building, and let's create something that represents your vision — visually, strategically, and creatively.</p>
+      <div class="cta-panel__actions">
+        <a href="./pages/contact.html" class="btn btn--primary btn--lg">
+          Let's Talk About Your Project
+          <span class="btn__arrow">→</span>
+        </a>
+        <a href="./pages/services.html" class="btn btn--outline btn--lg">Explore Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ────────────────────────────────────────
+     FOOTER
+──────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">
+          <img src="./assets/logo.jpeg" alt="Innovent Creations" class="footer__brand-logo" />
+          Innovent<span style="color:var(--c-teal)">.</span>
+        </div>
+        <p class="footer__tagline">Bringing brands to life through powerful design, compelling visuals, and creative digital experiences.</p>
+        <div style="display:flex; gap:var(--sp-3); flex-wrap:wrap;">
+          <span class="badge badge--teal">Creative Studio</span>
+          <span class="badge badge--outline">innoventcreations.in</span>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer__col-title">Navigation</h3>
+        <ul class="footer__links">
+          <li><a href="./index.html" class="footer__link">Home</a></li>
+          <li><a href="./pages/services.html" class="footer__link">Services</a></li>
+          <li><a href="./pages/portfolio.html" class="footer__link">Portfolio</a></li>
+          <li><a href="./pages/about.html" class="footer__link">About</a></li>
+          <li><a href="./pages/contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer__col-title">Services</h3>
+        <ul class="footer__links">
+          <li><a href="./pages/services.html#branding" class="footer__link">Logo & Brand Identity</a></li>
+          <li><a href="./pages/services.html#web" class="footer__link">Web & Digital Design</a></li>
+          <li><a href="./pages/services.html#social" class="footer__link">Social & Promo Design</a></li>
+          <li><a href="./pages/services.html#video" class="footer__link">Video & Motion</a></li>
+          <li><a href="./pages/services.html#animation" class="footer__link">Animation & Audio</a></li>
+          <li><a href="./pages/services.html#print" class="footer__link">Print & Publishing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer__col-title">Contact</h3>
+        <ul class="footer__links">
+          <li><a href="./pages/contact.html" class="footer__link">Start a Project</a></li>
+          <li><a href="mailto:innoventcreations@gmail.com" class="footer__link">innoventcreations@gmail.com</a></li>
+        </ul>
+        <div style="margin-top:var(--sp-6);">
+          <h3 class="footer__col-title">Follow Us</h3>
+          <p style="font-size:var(--fs-xs); color:var(--c-subtle); line-height:var(--lh-relaxed);">Social media links coming soon.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; <span id="year"></span> Innovent Creations. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="./pages/privacy.html">Privacy Policy</a>
+        <a href="./pages/terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+<script>
+  // Marquee duplication
+  var t = document.getElementById('marquee-track');
+  if (t) t.innerHTML += t.innerHTML;
+  // Year
+  var y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+</script>
+</body>
 </html>

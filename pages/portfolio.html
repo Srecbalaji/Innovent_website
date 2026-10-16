@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Innovent Creations — Creative Design Work</title>
+  <meta name="description" content="Browse Innovent Creations' portfolio of creative work — brand identities, web design, social media graphics, video editing, motion graphics, packaging, and print design." />
+  <link rel="canonical" href="https://innoventcreations.in/portfolio" />
+  <meta property="og:title" content="Portfolio | Innovent Creations" />
+  <meta property="og:description" content="A selection of creative work across branding, digital design, social media, video, and packaging." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <link rel="stylesheet" href="../css/visuals.css" />
+</head>
+<body>
+
+<!-- PAGE LOADER: Portfolio (Works & Showcase) -->
+<div class="page-loader" id="page-loader" data-page="portfolio" aria-hidden="true">
+  <div class="page-loader__bar"></div>
+  <div class="page-loader__backdrop"></div>
+  <div class="page-loader__card">
+    <div class="page-loader__icon-box">
+      <svg class="page-loader__svg-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 2L21.5 14.5L34 18L21.5 21.5L18 34L14.5 21.5L2 18L14.5 14.5L18 2Z" stroke="#FF6B35" stroke-width="2" stroke-linejoin="round" fill="rgba(255, 107, 53, 0.15)"/>
+        <circle cx="18" cy="18" r="3" fill="#F72585"/>
+        <circle cx="28" cy="8" r="1.5" fill="#FF6B35"/>
+        <circle cx="8" cy="28" r="1.5" fill="#F72585"/>
+      </svg>
+      <span class="page-loader__ring"></span>
+      <span class="page-loader__ring-pulse"></span>
+    </div>
+    <div class="page-loader__text-wrap">
+      <div class="page-loader__brand">Portfolio &amp; Showcase<span class="page-loader__dot">.</span></div>
+      <div class="page-loader__title">Selected Works &amp; Case Studies</div>
+      <div class="page-loader__tagline">Interactive Platforms · Digital Flagships · Creative Work</div>
+    </div>
+    <div class="page-loader__meter"><div class="page-loader__fill"></div></div>
+    <div class="page-loader__status">
+      <span class="page-loader__status-pip"></span>
+      <span class="page-loader__status-text">✦ Curating Project Gallery</span>
+    </div>
+  </div>
+</div>
+<script>
+  (function(){
+    function hideLoader() {
+      var el = document.getElementById('page-loader');
+      if (el) { el.classList.add('loaded'); el.classList.remove('entering'); }
+    }
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(hideLoader, 200);
+    } else {
+      window.addEventListener('DOMContentLoaded', function() { setTimeout(hideLoader, 200); });
+      window.addEventListener('load', function() { setTimeout(hideLoader, 200); });
+    }
+    setTimeout(hideLoader, 380);
+  })();
+</script>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand" aria-label="Innovent Creations — Home">
+        <img src="../assets/logo.jpeg" alt="Innovent Creations logo" class="nav__brand-logo" />
+        Innovent<span class="nav__brand-dot">.</span>
+      </a>
+      <div class="nav__links">
+        <a href="../index.html" class="nav__link">Home</a>
+        <a href="./services.html" class="nav__link">Services</a>
+        <a href="./portfolio.html" class="nav__link active">Portfolio</a>
+        <a href="./about.html" class="nav__link">About</a>
+        <a href="./contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="./contact.html" class="btn btn--primary btn--sm">Start a Project</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobile-menu">
+  <nav class="nav__mobile-links">
+    <a href="../index.html" class="nav__mobile-link">Home</a>
+    <a href="./services.html" class="nav__mobile-link">Services</a>
+    <a href="./portfolio.html" class="nav__mobile-link">Portfolio</a>
+    <a href="./about.html" class="nav__mobile-link">About</a>
+    <a href="./contact.html" class="nav__mobile-link">Contact</a>
+  </nav>
+  <a href="./contact.html" class="btn btn--primary btn--lg" style="align-self:flex-start">Start a Project →</a>
+</div>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="page-hero__eyebrow reveal">Our Work</p>
+    <h1 class="page-hero__title reveal" data-delay="1">A Selection of Creative Work.</h1>
+    <p class="page-hero__sub reveal" data-delay="2">These projects represent the range and quality of what we produce — from brand identities and social creatives to promotional design. More work is added as projects are completed.</p>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section">
+  <div class="container">
+
+    <!-- Controls -->
+    <div class="portfolio-controls reveal">
+      <div class="filter-tabs" role="tablist" aria-label="Filter portfolio by category">
+        <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All Work</button>
+        <button class="filter-tab" data-filter="branding" role="tab" aria-selected="false">Branding</button>
+        <button class="filter-tab" data-filter="digital" role="tab" aria-selected="false">Digital Design</button>
+        <button class="filter-tab" data-filter="social" role="tab" aria-selected="false">Social & Promo</button>
+        <button class="filter-tab" data-filter="video" role="tab" aria-selected="false">Video & Motion</button>
+        <button class="filter-tab" data-filter="print" role="tab" aria-selected="false">Print & Packaging</button>
+      </div>
+      <p class="portfolio-count">Showing <span id="portfolio-count">3</span> projects</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="portfolio-grid" id="portfolio-grid">
+
+      <!-- Project 1 -->
+      <article class="portfolio-card reveal" data-category="branding" data-delay="1">
+        <div style="overflow:hidden;">
+          <img src="../assets/work1.jpg" alt="Brand identity concept — Innovent Creations sample work" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Branding</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Brand Identity Concept</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Branding</p>
+          <h3 class="portfolio-card__title">Brand Identity Concept</h3>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="portfolio-card reveal" data-category="digital" data-delay="2">
+        <div style="overflow:hidden;">
+          <img src="../assets/work2.jpg" alt="Digital design and web creative — Innovent Creations sample work" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Digital Design</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Digital Creative</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Digital Design</p>
+          <h3 class="portfolio-card__title">Digital Creative</h3>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="portfolio-card reveal" data-category="social" data-delay="3">
+        <div style="overflow:hidden;">
+          <img src="../assets/work3.jpg" alt="Promotional poster and social media design — Innovent Creations sample work" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Social & Promo</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Promotional Poster</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Social & Promo</p>
+          <h3 class="portfolio-card__title">Promotional Poster</h3>
+        </div>
+      </article>
+
+      <!-- Coming soon placeholders -->
+
+
+      <!-- Empty state -->
+
+      <!-- Project 4 - Logo Design -->
+      <article class="portfolio-card reveal" data-category="branding" data-delay="1">
+        <div style="overflow:hidden;">
+          <img src="../assets/work4.jpg" alt="Logo and brand identity design series" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Branding</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Logo Identity Series</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Branding</p>
+          <h3 class="portfolio-card__title">Logo Identity Series</h3>
+        </div>
+      </article>
+
+      <!-- Project 5 - Social Media -->
+      <article class="portfolio-card reveal" data-category="social" data-delay="2">
+        <div style="overflow:hidden;">
+          <img src="../assets/work5.jpg" alt="Social media and content design templates" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Social &amp; Promo</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Social Media Kit</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Social &amp; Promo</p>
+          <h3 class="portfolio-card__title">Social Media Kit</h3>
+        </div>
+      </article>
+
+      <!-- Project 6 - Motion Graphics -->
+      <article class="portfolio-card reveal" data-category="video" data-delay="3">
+        <div style="overflow:hidden;">
+          <img src="../assets/work6.jpg" alt="Motion graphics and video editing showcase" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Video &amp; Motion</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Motion &amp; Title Graphics</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Video &amp; Motion</p>
+          <h3 class="portfolio-card__title">Motion &amp; Title Graphics</h3>
+        </div>
+      </article>
+
+      <!-- Project 7 - Packaging -->
+      <article class="portfolio-card reveal" data-category="print" data-delay="1">
+        <div style="overflow:hidden;">
+          <img src="../assets/work7.jpg" alt="Premium product packaging design" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Print &amp; Packaging</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Luxury Packaging Design</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Print &amp; Packaging</p>
+          <h3 class="portfolio-card__title">Luxury Packaging Design</h3>
+        </div>
+      </article>
+
+      <!-- Project 8 - Web Design -->
+      <article class="portfolio-card reveal" data-category="digital" data-delay="2">
+        <div style="overflow:hidden;">
+          <img src="../assets/work8.jpg" alt="Premium web design UI showcase" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Digital Design</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">Web UI &amp; Digital Design</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Digital Design</p>
+          <h3 class="portfolio-card__title">Web UI &amp; Digital Design</h3>
+        </div>
+      </article>
+
+      <!-- Project 9 - Animation -->
+      <article class="portfolio-card reveal" data-category="video" data-delay="3">
+        <div style="overflow:hidden;">
+          <img src="../assets/work9.jpg" alt="2D animation and character design showcase" class="portfolio-card__image" loading="lazy" />
+        </div>
+        <div class="portfolio-card__overlay">
+          <p class="portfolio-card__category">Animation</p>
+          <h3 style="font-family:var(--font-display); font-size:var(--fs-lg); font-weight:var(--fw-bold); color:var(--c-white);">2D Character Animation</h3>
+        </div>
+        <div class="portfolio-card__info">
+          <p class="portfolio-card__category">Animation</p>
+          <h3 class="portfolio-card__title">2D Character Animation</h3>
+        </div>
+      </article>
+
+      <!-- Empty state -->
+      <div class="portfolio-empty" id="portfolio-empty" style="display:none;">
+        <div class="portfolio-empty__icon" aria-hidden="true">🔍</div>
+        <h3 class="portfolio-empty__title">No projects in this category yet</h3>
+        <p class="portfolio-empty__desc">Check back soon — more work is added regularly.</p>
+      </div>
+    </div>
+
+    <!-- Update count correctly -->
+    <script>
+      document.getElementById('portfolio-count').textContent =
+        document.querySelectorAll('.portfolio-card').length;
+    </script>
+
+  </div>
+</section>
+
+<!-- Portfolio note -->
+<section class="section--sm" style="border-top:1px solid var(--c-border); background:var(--c-bg-3);">
+  <div class="container">
+    <div style="display:flex; align-items:center; gap:var(--sp-4); flex-wrap:wrap; justify-content:space-between;">
+      <p style="font-size:var(--fs-sm); color:var(--c-muted); max-width:52ch; line-height:var(--lh-relaxed);">
+        <strong style="color:var(--c-text);">Note:</strong> Work shown here represents the studio's current portfolio. New projects are added regularly as they're completed and approved for display.
+      </p>
+      <a href="./contact.html" class="btn btn--primary btn--sm">Start Your Project →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">
+          <img src="../assets/logo.jpeg" alt="Innovent Creations" class="footer__brand-logo" />
+          Innovent<span style="color:var(--c-teal)">.</span>
+        </div>
+        <p class="footer__tagline">Bringing brands to life through powerful design, compelling visuals, and creative digital experiences.</p>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Navigation</h3>
+        <ul class="footer__links">
+          <li><a href="../index.html" class="footer__link">Home</a></li>
+          <li><a href="./services.html" class="footer__link">Services</a></li>
+          <li><a href="./portfolio.html" class="footer__link">Portfolio</a></li>
+          <li><a href="./about.html" class="footer__link">About</a></li>
+          <li><a href="./contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Services</h3>
+        <ul class="footer__links">
+          <li><a href="./services.html#branding" class="footer__link">Logo & Brand Identity</a></li>
+          <li><a href="./services.html#web" class="footer__link">Web & Digital Design</a></li>
+          <li><a href="./services.html#social" class="footer__link">Social & Promo Design</a></li>
+          <li><a href="./services.html#video" class="footer__link">Video & Motion</a></li>
+          <li><a href="./services.html#animation" class="footer__link">Animation & Audio</a></li>
+          <li><a href="./services.html#print" class="footer__link">Print & Publishing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Contact</h3>
+        <ul class="footer__links">
+          <li><a href="./contact.html" class="footer__link">Start a Project</a></li>
+          <li><a href="mailto:innoventcreations@gmail.com" class="footer__link">innoventcreations@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; <span id="year"></span> Innovent Creations. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>
+  var y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Innovent Creations — Our Story & Creative Philosophy</title>
+  <meta name="description" content="Learn about Innovent Creations — a creative design studio built around the belief that strong visual identity is the foundation of every memorable brand." />
+  <link rel="canonical" href="https://innoventcreations.in/about" />
+  <meta property="og:title" content="About | Innovent Creations" />
+  <meta property="og:description" content="The story, philosophy, and values behind Innovent Creations creative studio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <link rel="stylesheet" href="../css/visuals.css" />
+</head>
+<body>
+
+<!-- PAGE LOADER: About (Story, Team & Vision) -->
+<div class="page-loader" id="page-loader" data-page="about" aria-hidden="true">
+  <div class="page-loader__bar"></div>
+  <div class="page-loader__backdrop"></div>
+  <div class="page-loader__card">
+    <div class="page-loader__icon-box">
+      <svg class="page-loader__svg-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="18" cy="18" rx="14" ry="6" transform="rotate(-30 18 18)" stroke="#10B981" stroke-width="1.8" stroke-linecap="round"/>
+        <ellipse cx="18" cy="18" rx="14" ry="6" transform="rotate(30 18 18)" stroke="#21D4C2" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="18" cy="18" r="4.5" fill="#21D4C2" stroke="#10B981" stroke-width="1.5"/>
+      </svg>
+      <span class="page-loader__ring"></span>
+      <span class="page-loader__ring-pulse"></span>
+    </div>
+    <div class="page-loader__text-wrap">
+      <div class="page-loader__brand">About Innovent<span class="page-loader__dot">.</span></div>
+      <div class="page-loader__title">Our Story, Team &amp; Vision</div>
+      <div class="page-loader__tagline">Visionary Team · Engineering Mastery · Creative Core</div>
+    </div>
+    <div class="page-loader__meter"><div class="page-loader__fill"></div></div>
+    <div class="page-loader__status">
+      <span class="page-loader__status-pip"></span>
+      <span class="page-loader__status-text">◈ Loading Our Story &amp; Culture</span>
+    </div>
+  </div>
+</div>
+<script>
+  (function(){
+    function hideLoader() {
+      var el = document.getElementById('page-loader');
+      if (el) { el.classList.add('loaded'); el.classList.remove('entering'); }
+    }
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(hideLoader, 200);
+    } else {
+      window.addEventListener('DOMContentLoaded', function() { setTimeout(hideLoader, 200); });
+      window.addEventListener('load', function() { setTimeout(hideLoader, 200); });
+    }
+    setTimeout(hideLoader, 380);
+  })();
+</script>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand" aria-label="Innovent Creations — Home">
+        <img src="../assets/logo.jpeg" alt="Innovent Creations logo" class="nav__brand-logo" />
+        Innovent<span class="nav__brand-dot">.</span>
+      </a>
+      <div class="nav__links">
+        <a href="../index.html" class="nav__link">Home</a>
+        <a href="./services.html" class="nav__link">Services</a>
+        <a href="./portfolio.html" class="nav__link">Portfolio</a>
+        <a href="./about.html" class="nav__link active">About</a>
+        <a href="./contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="./contact.html" class="btn btn--primary btn--sm">Start a Project</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobile-menu">
+  <nav class="nav__mobile-links">
+    <a href="../index.html" class="nav__mobile-link">Home</a>
+    <a href="./services.html" class="nav__mobile-link">Services</a>
+    <a href="./portfolio.html" class="nav__mobile-link">Portfolio</a>
+    <a href="./about.html" class="nav__mobile-link">About</a>
+    <a href="./contact.html" class="nav__mobile-link">Contact</a>
+  </nav>
+  <a href="./contact.html" class="btn btn--primary btn--lg" style="align-self:flex-start">Start a Project →</a>
+</div>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="page-hero__eyebrow reveal">About the Studio</p>
+    <h1 class="page-hero__title reveal" data-delay="1">Creativity Is How We Turn Ideas Into Identity.</h1>
+    <p class="page-hero__sub reveal" data-delay="2">Innovent Creations is a creative studio built around the belief that great visual work is the foundation of every brand people remember, trust, and choose.</p>
+  </div>
+</section>
+
+<!-- ABOUT INTRO -->
+<section class="section">
+  <div class="container">
+    <div class="about-intro">
+      <div class="about-intro__visual reveal">
+        <img src="../assets/poster.jpg" alt="Innovent Creations studio work" class="about-intro__img" loading="lazy" />
+        <div class="about-intro__accent">
+          <p class="about-intro__accent-label">Our Focus</p>
+          <p class="about-intro__accent-val">Creative First</p>
+        </div>
+      </div>
+
+      <div class="about-intro__body reveal" data-delay="1">
+        <span class="section-label">Who We Are</span>
+        <h2 class="about-intro__title">A Studio Dedicated to Creative Excellence</h2>
+
+        <p>Innovent Creations exists to help businesses, creators, and entrepreneurs establish a visual identity that communicates who they are — clearly, consistently, and with creative confidence.</p>
+
+        <p>We operate across six creative disciplines: brand identity, web and digital design, social and promotional graphics, video editing and motion, animation and audio production, and print and publishing. This breadth isn't about being generalist — it's about being the creative partner that can support your brand across every format it appears in.</p>
+
+        <p>What makes creative work genuinely effective isn't just how it looks. It's whether it accurately communicates the brand's value, resonates with the right audience, and maintains its quality across the contexts it's used in. That's what we focus on with every project we take on.</p>
+
+        <p>Innovent Creations is available to work with businesses and creators at any stage — whether you need to build a brand from scratch, refresh an existing identity, create a campaign, or produce ongoing creative content.</p>
+
+        <div style="margin-top:var(--sp-8);">
+          <a href="./contact.html" class="btn btn--primary">Start a Conversation →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="about-values">
+  <div class="container">
+    <div class="section-head section-head--centered reveal">
+      <span class="section-label" style="justify-content:center;">What We Stand For</span>
+      <h2 style="margin-inline:auto;">The Principles Behind Every Project.</h2>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-card reveal" data-delay="1">
+        <p class="value-card__num">01</p>
+        <h3 class="value-card__title">Creativity With Purpose</h3>
+        <p class="value-card__desc">Every creative decision should serve the brand's goals and audience — not just look interesting. We combine creative ambition with strategic thinking to produce work that performs in the real world.</p>
+      </div>
+      <div class="value-card reveal" data-delay="2">
+        <p class="value-card__num">02</p>
+        <h3 class="value-card__title">Consistent Visual Quality</h3>
+        <p class="value-card__desc">The quality of creative work shouldn't vary depending on which part of your brand it represents. We apply the same standard of care to every deliverable, from your logo to your social posts.</p>
+      </div>
+      <div class="value-card reveal" data-delay="3">
+        <p class="value-card__num">03</p>
+        <h3 class="value-card__title">Honest, Clear Communication</h3>
+        <p class="value-card__desc">Good creative relationships are built on transparency. We communicate clearly at every stage of a project — about timelines, creative direction, revisions, and deliverables.</p>
+      </div>
+      <div class="value-card reveal" data-delay="1">
+        <p class="value-card__num">04</p>
+        <h3 class="value-card__title">Attention to Detail</h3>
+        <p class="value-card__desc">The difference between good creative work and exceptional creative work is often in the details that most people won't consciously notice — but that everyone will feel. We notice them.</p>
+      </div>
+      <div class="value-card reveal" data-delay="2">
+        <p class="value-card__num">05</p>
+        <h3 class="value-card__title">Cohesive Brand Thinking</h3>
+        <p class="value-card__desc">A brand is not a logo. It's a system of visual decisions that communicate something consistent and recognizable across every touchpoint. We think about the system, not just the individual piece.</p>
+      </div>
+      <div class="value-card reveal" data-delay="3">
+        <p class="value-card__num">06</p>
+        <h3 class="value-card__title">Work That's Ready to Use</h3>
+        <p class="value-card__desc">We deliver assets in formats that work — correctly sized, properly named, and ready for digital, social, print, or motion use without extra steps on your end.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="section">
+  <div class="container container--text">
+    <div class="reveal">
+      <span class="section-label">Our Philosophy</span>
+      <h2 style="font-family:var(--font-display); font-size:clamp(1.75rem,3.5vw,2.75rem); font-weight:var(--fw-extrabold); color:var(--c-white); line-height:var(--lh-snug); letter-spacing:var(--ls-tight); margin-bottom:var(--sp-8);">
+        "Design is not decoration. It's how you communicate without words."
+      </h2>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:var(--sp-5); color:var(--c-muted); font-size:var(--fs-base); line-height:var(--lh-relaxed);">
+      <p class="reveal" data-delay="1">Every brand is communicating something, whether by intention or by default. The businesses that understand this — that invest in how they look, how they move, and how they present themselves — are the ones that build recognition faster, earn trust more easily, and compete on something more durable than price.</p>
+      <p class="reveal" data-delay="2">At Innovent Creations, we work with people who take that seriously. Who understand that a strong visual identity is an investment in how the world perceives their business — and who want a creative partner, not just a service provider.</p>
+      <p class="reveal" data-delay="3">We're not the right studio for everyone, and we're comfortable with that. We do our best work for clients who give us genuine creative latitude, engage thoughtfully with the process, and understand that good creative work takes time to develop properly.</p>
+    </div>
+    <div style="margin-top:var(--sp-10);" class="reveal" data-delay="4">
+      <a href="./contact.html" class="btn btn--primary btn--lg">Work With Us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="background:var(--c-bg-3); border-top:1px solid var(--c-border);">
+  <div class="container">
+    <div style="display:grid; grid-template-columns:1fr auto; gap:var(--sp-8); align-items:center; flex-wrap:wrap;" class="reveal">
+      <div>
+        <h2 style="font-family:var(--font-display); font-size:clamp(1.75rem,3vw,2.5rem); font-weight:var(--fw-extrabold); color:var(--c-white); line-height:var(--lh-snug); letter-spacing:var(--ls-tight); margin-bottom:var(--sp-3);">
+          Ready to Work Together?
+        </h2>
+        <p style="font-size:var(--fs-base); color:var(--c-muted); line-height:var(--lh-relaxed);">Tell us about your project and let's explore what's possible.</p>
+      </div>
+      <a href="./contact.html" class="btn btn--primary btn--lg" style="flex-shrink:0;">Start a Project →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">
+          <img src="../assets/logo.jpeg" alt="Innovent Creations" class="footer__brand-logo" />
+          Innovent<span style="color:var(--c-teal)">.</span>
+        </div>
+        <p class="footer__tagline">Bringing brands to life through powerful design, compelling visuals, and creative digital experiences.</p>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Navigation</h3>
+        <ul class="footer__links">
+          <li><a href="../index.html" class="footer__link">Home</a></li>
+          <li><a href="./services.html" class="footer__link">Services</a></li>
+          <li><a href="./portfolio.html" class="footer__link">Portfolio</a></li>
+          <li><a href="./about.html" class="footer__link">About</a></li>
+          <li><a href="./contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Services</h3>
+        <ul class="footer__links">
+          <li><a href="./services.html#branding" class="footer__link">Logo & Brand Identity</a></li>
+          <li><a href="./services.html#web" class="footer__link">Web & Digital Design</a></li>
+          <li><a href="./services.html#social" class="footer__link">Social & Promo Design</a></li>
+          <li><a href="./services.html#video" class="footer__link">Video & Motion</a></li>
+          <li><a href="./services.html#animation" class="footer__link">Animation & Audio</a></li>
+          <li><a href="./services.html#print" class="footer__link">Print & Publishing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Contact</h3>
+        <ul class="footer__links">
+          <li><a href="./contact.html" class="footer__link">Start a Project</a></li>
+          <li><a href="mailto:innoventcreations@gmail.com" class="footer__link">innoventcreations@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; <span id="year"></span> Innovent Creations. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>
+  var y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

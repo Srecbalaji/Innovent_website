@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /pages/privacy.html
+Disallow: /pages/terms.html
+
+Sitemap: https://innoventcreations.in/sitemap.xml

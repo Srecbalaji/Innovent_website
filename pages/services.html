@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Innovent Creations — Creative Design Studio</title>
+  <meta name="description" content="Explore Innovent Creations' full range of creative services: logo design, brand identity, web design, social media graphics, video editing, motion graphics, animation, and print design." />
+  <link rel="canonical" href="https://innoventcreations.in/services" />
+  <meta property="og:title" content="Services | Innovent Creations" />
+  <meta property="og:description" content="Six creative disciplines under one studio — from brand identity to packaging and motion graphics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <link rel="stylesheet" href="../css/visuals.css" />
+</head>
+<body>
+
+<!-- PAGE LOADER: Services (Architecture & Capabilities) -->
+<div class="page-loader" id="page-loader" data-page="services" aria-hidden="true">
+  <div class="page-loader__bar"></div>
+  <div class="page-loader__backdrop"></div>
+  <div class="page-loader__card">
+    <div class="page-loader__icon-box">
+      <svg class="page-loader__svg-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 3L31 10.5V25.5L18 33L5 25.5V10.5L18 3Z" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 18L31 10.5M18 18V33M18 18L5 10.5" stroke="#8A2BE2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="18" cy="18" r="3.5" fill="#00E5FF"/>
+      </svg>
+      <span class="page-loader__ring"></span>
+      <span class="page-loader__ring-pulse"></span>
+    </div>
+    <div class="page-loader__text-wrap">
+      <div class="page-loader__brand">Services &amp; Architecture<span class="page-loader__dot">.</span></div>
+      <div class="page-loader__title">Full-Spectrum Digital Solutions</div>
+      <div class="page-loader__tagline">Web Apps · Custom AI · Cloud Platforms · APIs</div>
+    </div>
+    <div class="page-loader__meter"><div class="page-loader__fill"></div></div>
+    <div class="page-loader__status">
+      <span class="page-loader__status-pip"></span>
+      <span class="page-loader__status-text">⚡ Architecting Scalable Solutions</span>
+    </div>
+  </div>
+</div>
+<script>
+  (function(){
+    function hideLoader() {
+      var el = document.getElementById('page-loader');
+      if (el) { el.classList.add('loaded'); el.classList.remove('entering'); }
+    }
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(hideLoader, 200);
+    } else {
+      window.addEventListener('DOMContentLoaded', function() { setTimeout(hideLoader, 200); });
+      window.addEventListener('load', function() { setTimeout(hideLoader, 200); });
+    }
+    setTimeout(hideLoader, 380);
+  })();
+</script>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand" aria-label="Innovent Creations — Home">
+        <img src="../assets/logo.jpeg" alt="Innovent Creations logo" class="nav__brand-logo" />
+        Innovent<span class="nav__brand-dot">.</span>
+      </a>
+      <div class="nav__links">
+        <a href="../index.html" class="nav__link">Home</a>
+        <a href="./services.html" class="nav__link active">Services</a>
+        <a href="./portfolio.html" class="nav__link">Portfolio</a>
+        <a href="./about.html" class="nav__link">About</a>
+        <a href="./contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="./contact.html" class="btn btn--primary btn--sm">Start a Project</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobile-menu">
+  <nav class="nav__mobile-links">
+    <a href="../index.html" class="nav__mobile-link">Home</a>
+    <a href="./services.html" class="nav__mobile-link">Services</a>
+    <a href="./portfolio.html" class="nav__mobile-link">Portfolio</a>
+    <a href="./about.html" class="nav__mobile-link">About</a>
+    <a href="./contact.html" class="nav__mobile-link">Contact</a>
+  </nav>
+  <a href="./contact.html" class="btn btn--primary btn--lg" style="align-self:flex-start">Start a Project →</a>
+</div>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="page-hero__eyebrow reveal">Our Services</p>
+    <h1 class="page-hero__title reveal" data-delay="1">Six Creative Disciplines. One Cohesive Studio.</h1>
+    <p class="page-hero__sub reveal" data-delay="2">From the visual marks that define your brand to the motion and print work that extends it — everything your creative presence needs, under one roof.</p>
+  </div>
+</section>
+
+<!-- SERVICES DETAIL -->
+<section class="section">
+  <div class="container">
+    <div class="services-detail-grid">
+
+      <!-- 01 Branding -->
+      <article id="branding">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">01 — Foundation</p>
+            <h2 class="service-detail__title">Logo Design & Brand Identity</h2>
+            <p class="service-detail__desc">Your brand's visual identity is the single most enduring investment you'll make in how your business is perceived. We design identity systems that are distinctive, flexible, and built to communicate the right message across every format they appear in.</p>
+            <p class="service-detail__desc">Whether you're launching something new or evolving an existing brand, we approach every identity project with strategic clarity and genuine creative ambition.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">Primary logo design</li>
+                <li class="service-detail__deliverables-item">Logo variations & adaptations</li>
+                <li class="service-detail__deliverables-item">Brand colour system</li>
+                <li class="service-detail__deliverables-item">Typography guidelines</li>
+                <li class="service-detail__deliverables-item">Brand guidelines document</li>
+                <li class="service-detail__deliverables-item">Business card & stationery</li>
+                <li class="service-detail__deliverables-item">Social profile assets</li>
+                <li class="service-detail__deliverables-item">Final files in all formats</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=branding" class="btn btn--primary">Enquire About Branding →</a>
+          </div>
+          <div class="service-detail__visual">
+            <img src="../assets/work1.jpg" alt="Brand identity and logo design work" class="service-detail__img" loading="lazy" />
+          </div>
+        </div>
+        <hr class="service-divider" />
+      </article>
+
+      <!-- 02 Web -->
+      <article id="web">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">02 — Digital</p>
+            <h2 class="service-detail__title">Web Design & Digital Creatives</h2>
+            <p class="service-detail__desc">Digital-first design that makes your brand's online presence feel intentional and polished. We design websites and digital assets that tell your brand story clearly — not just pages that look generic.</p>
+            <p class="service-detail__desc">From landing page layouts to full website visual design and digital campaign assets, we focus on design that communicates and converts.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">Website visual design</li>
+                <li class="service-detail__deliverables-item">Landing page design</li>
+                <li class="service-detail__deliverables-item">Web banners & hero assets</li>
+                <li class="service-detail__deliverables-item">Email template design</li>
+                <li class="service-detail__deliverables-item">Digital campaign creatives</li>
+                <li class="service-detail__deliverables-item">UI component design</li>
+                <li class="service-detail__deliverables-item">App screen design</li>
+                <li class="service-detail__deliverables-item">Export-ready design files</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=web" class="btn btn--primary">Enquire About Web Design →</a>
+          </div>
+          <div class="service-detail__visual">
+            <img src="../assets/work2.jpg" alt="Web design and digital creative work" class="service-detail__img" loading="lazy" />
+          </div>
+        </div>
+        <hr class="service-divider" />
+      </article>
+
+      <!-- 03 Social -->
+      <article id="social">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">03 — Social & Promo</p>
+            <h2 class="service-detail__title">Social Media & Promotional Design</h2>
+            <p class="service-detail__desc">Visuals designed to perform — capturing attention in the first second, communicating clearly, and making the brand look credible in every format. From YouTube thumbnails to event posters, we design promotional materials that work.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">YouTube thumbnail design</li>
+                <li class="service-detail__deliverables-item">Instagram & Facebook posts</li>
+                <li class="service-detail__deliverables-item">Story & reel graphics</li>
+                <li class="service-detail__deliverables-item">Event posters & flyers</li>
+                <li class="service-detail__deliverables-item">Promotional banners</li>
+                <li class="service-detail__deliverables-item">Campaign asset sets</li>
+                <li class="service-detail__deliverables-item">Print-ready & digital formats</li>
+                <li class="service-detail__deliverables-item">Brand-consistent templates</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=social" class="btn btn--primary">Enquire About Social Design →</a>
+          </div>
+          <div class="service-detail__visual">
+            <img src="../assets/work3.jpg" alt="Social media and promotional design" class="service-detail__img" loading="lazy" />
+          </div>
+        </div>
+        <hr class="service-divider" />
+      </article>
+
+      <!-- 04 Video -->
+      <article id="video">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">04 — Video & Motion</p>
+            <h2 class="service-detail__title">Video Editing & Motion Graphics</h2>
+            <p class="service-detail__desc">Professional video editing and motion work built for brands that want to communicate with impact. From short-form promotional content to longer branded video pieces, we bring creative direction and technical precision to every edit.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">Professional video editing</li>
+                <li class="service-detail__deliverables-item">Motion graphics & titles</li>
+                <li class="service-detail__deliverables-item">Visual effects (VFX)</li>
+                <li class="service-detail__deliverables-item">Colour grading</li>
+                <li class="service-detail__deliverables-item">Branded intro & outro</li>
+                <li class="service-detail__deliverables-item">Promotional reels</li>
+                <li class="service-detail__deliverables-item">Short-form social video</li>
+                <li class="service-detail__deliverables-item">Export in required formats</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=video" class="btn btn--primary">Enquire About Video & Motion →</a>
+          </div>
+          <div class="service-detail__visual">
+            <div class="service-detail__placeholder">
+              <span class="service-detail__placeholder-icon" aria-hidden="true">▶</span>
+              <p class="service-detail__placeholder-text">Video & Motion<br>Portfolio coming soon</p>
+            </div>
+          </div>
+        </div>
+        <hr class="service-divider" />
+      </article>
+
+      <!-- 05 Animation -->
+      <article id="animation">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">05 — Animation & Audio</p>
+            <h2 class="service-detail__title">Animation & Audio Production</h2>
+            <p class="service-detail__desc">Animation adds dimension to brand storytelling. Whether it's an animated logo, a product explainer, or a kinetic social piece, we create animation that feels crafted — paired with polished audio treatment that completes the experience.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">2D animation</li>
+                <li class="service-detail__deliverables-item">Animated logo reveals</li>
+                <li class="service-detail__deliverables-item">Explainer animations</li>
+                <li class="service-detail__deliverables-item">Kinetic typography</li>
+                <li class="service-detail__deliverables-item">Sound design & mixing</li>
+                <li class="service-detail__deliverables-item">Audio finishing</li>
+                <li class="service-detail__deliverables-item">Looping animated assets</li>
+                <li class="service-detail__deliverables-item">Social-ready animation</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=animation" class="btn btn--primary">Enquire About Animation →</a>
+          </div>
+          <div class="service-detail__visual">
+            <div class="service-detail__placeholder">
+              <span class="service-detail__placeholder-icon" aria-hidden="true">◎</span>
+              <p class="service-detail__placeholder-text">Animation & Audio<br>Portfolio coming soon</p>
+            </div>
+          </div>
+        </div>
+        <hr class="service-divider" />
+      </article>
+
+      <!-- 06 Print -->
+      <article id="print">
+        <div class="service-detail reveal">
+          <div class="service-detail__content">
+            <p class="service-detail__badge">06 — Print & Publishing</p>
+            <h2 class="service-detail__title">Print, Publishing & Merchandise</h2>
+            <p class="service-detail__desc">Physical creative work that carries the same quality as your digital presence. From beautifully designed books and magazines to distinctive packaging and merchandise graphics, we produce print-ready creative work built for the real world.</p>
+            <div class="service-detail__deliverables">
+              <p class="service-detail__deliverables-title">What's Included</p>
+              <ul class="service-detail__deliverables-list">
+                <li class="service-detail__deliverables-item">Book & magazine layout</li>
+                <li class="service-detail__deliverables-item">Product packaging design</li>
+                <li class="service-detail__deliverables-item">T-shirt & apparel graphics</li>
+                <li class="service-detail__deliverables-item">Merchandise design</li>
+                <li class="service-detail__deliverables-item">Brochure & catalogue design</li>
+                <li class="service-detail__deliverables-item">Print-ready file preparation</li>
+                <li class="service-detail__deliverables-item">Editorial layout design</li>
+                <li class="service-detail__deliverables-item">Dieline & packaging specs</li>
+              </ul>
+            </div>
+            <a href="./contact.html?service=print" class="btn btn--primary">Enquire About Print & Publishing →</a>
+          </div>
+          <div class="service-detail__visual">
+            <div class="service-detail__placeholder">
+              <span class="service-detail__placeholder-icon" aria-hidden="true">❑</span>
+              <p class="service-detail__placeholder-text">Print & Packaging<br>Portfolio coming soon</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="background:var(--c-bg-3); border-top:1px solid var(--c-border);">
+  <div class="container">
+    <div class="cta-panel reveal" style="padding:var(--sp-16) var(--sp-12); text-align:center;">
+      <h2 style="font-family:var(--font-display); font-size:clamp(1.8rem,4vw,3rem); font-weight:var(--fw-extrabold); color:var(--c-white); line-height:var(--lh-tight); letter-spacing:var(--ls-tight); max-width:18ch; margin-inline:auto; margin-bottom:var(--sp-5);">
+        Not Sure Which Service You Need?
+      </h2>
+      <p style="font-size:var(--fs-md); color:var(--c-muted); max-width:44ch; margin-inline:auto; margin-bottom:var(--sp-8); line-height:var(--lh-relaxed);">
+        Describe your project and we'll help you figure out the right creative approach.
+      </p>
+      <a href="./contact.html" class="btn btn--primary btn--lg">Talk to Us →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">
+          <img src="../assets/logo.jpeg" alt="Innovent Creations" class="footer__brand-logo" />
+          Innovent<span style="color:var(--c-teal)">.</span>
+        </div>
+        <p class="footer__tagline">Bringing brands to life through powerful design, compelling visuals, and creative digital experiences.</p>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Navigation</h3>
+        <ul class="footer__links">
+          <li><a href="../index.html" class="footer__link">Home</a></li>
+          <li><a href="./services.html" class="footer__link">Services</a></li>
+          <li><a href="./portfolio.html" class="footer__link">Portfolio</a></li>
+          <li><a href="./about.html" class="footer__link">About</a></li>
+          <li><a href="./contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Services</h3>
+        <ul class="footer__links">
+          <li><a href="#branding" class="footer__link">Logo & Brand Identity</a></li>
+          <li><a href="#web" class="footer__link">Web & Digital</a></li>
+          <li><a href="#social" class="footer__link">Social & Promo</a></li>
+          <li><a href="#video" class="footer__link">Video & Motion</a></li>
+          <li><a href="#animation" class="footer__link">Animation & Audio</a></li>
+          <li><a href="#print" class="footer__link">Print & Publishing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Contact</h3>
+        <ul class="footer__links">
+          <li><a href="./contact.html" class="footer__link">Start a Project</a></li>
+          <li><a href="mailto:innoventcreations@gmail.com" class="footer__link">innoventcreations@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; <span id="year"></span> Innovent Creations. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>
+  var y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
